@@ -18,7 +18,7 @@ Given the name and grade of the card, we will scrape a website using selenium an
 ### Application
 Utilizng react-native and flask, we built a responsive frontend and backend that will use the model to predict the the quality and price of a given card. First the user will take a picture of both the front and the back of a card, then we will preprocess the card using the tool we described earlier. After the preprocessing step, we will run the image data through the model and predict what grade the card could be. We then ask the user to input the name of the card and return the price of the card given the grade.
 
-# Requirments
+# Requirements
 - python
 - tensorflow
 - selenium
